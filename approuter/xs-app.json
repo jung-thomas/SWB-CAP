@@ -1,0 +1,16 @@
+{
+  "authenticationMethod": "none",
+  "routes": [
+    {
+      "source": "^/c4s/(.*)",
+      "destination": "c4sapi",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/(.*)",
+      "destination": "srv_api",
+      "authenticationType": "xsuaa"
+    }
+  ]
+  
+}
