@@ -18,7 +18,8 @@
     "sqlite3": "^5.0.0"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run",
+    "hana": "cds deploy --to hana:swb-cap --auto-undeploy"
   },
   "cds": {
     "requires": {
